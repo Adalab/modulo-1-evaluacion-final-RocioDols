@@ -7,7 +7,7 @@
   background-image: url('../images/cover.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position:center;
 }
 .header_nav{
   position: fixed;
@@ -35,9 +35,19 @@
   text-align: center;
   color: white;
   max-width: 290px;
-  height: 110px;
-  margin: 240px 0 0 0px;
   text-shadow:0 2px 3px rgba(0,0,0,0.2);
+
+  @media all and(min-width:768px){
+    font-size: 80px;
+    line-height: 1.33;
+    max-width: 768px;
+
+  }
+
+  @media all and(min-width:1280px){
+    font-size: 100px;
+    line-height: 1.32;
+  }
 }
 .header_subtitle{
   margin-top: 10px;

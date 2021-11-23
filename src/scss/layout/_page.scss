@@ -1,0 +1,49 @@
+.main{
+    font-family: "Roboto Slab", serif;
+    margin:0 15px;
+}
+.main_section1{
+   
+    background-color: #fff;
+}
+.insomnia{
+    margin-top: 30px;
+    font-size: 14px;
+    color: #8ccbea;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+.h2_looking{
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+.p_seccion1{
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 1.67;
+    color: #7B7B7B;
+}
+.button_go{
+    width: 76px;
+    height: 45px;
+    margin-bottom: 45px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f26002;
+    text-transform: capitalize;
+    text-align: center;
+    border-radius: 22.5px;
+    border: solid 3px #f26002;
+    background-color: white;
+}
+
+.main_section2{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5,1fr);
+    height: 624px;
+    text-align: center;
+    
+}

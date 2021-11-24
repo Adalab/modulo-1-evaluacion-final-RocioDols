@@ -5,6 +5,10 @@
     background-color:#304268;
     color: white;
     font-family: 'Roboto-Regular';
+    @media all and (min-width: 1200px) {
+      padding-left: 370px;
+      padding-right: 370px;
+    }
 }
 .footer_up_arrow{
     width: 45px;
@@ -14,6 +18,21 @@
     background-color: white;
     position: relative;
     transform: translateY(-50%);
+    animation-duration: 4s;
+    animation-name: happyArrow;
+  }
+  @keyframes happyArrow{
+    from {
+      margin-right: 100%;
+      width: 25%;
+      background-color: salmon;
+    }
+  
+    to {
+      margin-right: 0%;
+      width: 25%;
+      background-color: #fff;
+    }
   }
   .footer_up_arrow a{
       position: absolute;
@@ -24,14 +43,17 @@
   .container_nav{
     display: flex;
     flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 45px;
     @media all and (min-width: 768px) {
         width: 100%;
         flex-direction: row;
         justify-content: space-around;
+        padding-top: 45px;
       }
     
       @media all and (min-width: 1280px) {
-          width: 50vw;
+        width: 50vw;
         justify-content: space-around;
 
       }
@@ -82,7 +104,6 @@
   }
   .footer_small{
       line-height: 30px;
-
       @media all and (min-width: 768px) {
           
       font-size: 14px;

@@ -3,8 +3,17 @@
     margin:0 15px;
 }
 .main_section1{
-   
     background-color: #fff;
+}
+.main_looking{
+    @media all and (min-width:768px) {
+    
+    }
+
+    @media all and (min-width:1280px) {
+        margin-left: 275px;
+        max-width: 730px;
+    }
 }
 .insomnia{
     margin-top: 30px;
@@ -12,18 +21,55 @@
     color: #8ccbea;
     line-height: 30px;
     text-transform: capitalize;
+
+    @media all and (min-width:768px) {
+        margin-left: 39px;
+    }
+
+    @media all and (min-width:1280px) {
+        margin-top: 60px;
+        margin-left: 0px;
+    }
 }
 .h2_looking{
     font-size: 24px;
     line-height: 30px;
     margin-bottom: 15px;
     text-transform: capitalize;
+    font-family:"Roboto Slab", serif;
+
+    @media all and (min-width:768px) {
+        margin-left: 39px;
+        margin-bottom: 30px;
+        line-height:45px;
+        font-size: 26px;
+    }
+
+    @media all and (min-width:1280px) {
+        margin-top: 60px;
+        margin-left: 0px;
+        font-size: 32px;
+        line-height: 45px;
+    }
+
 }
+
 .p_seccion1{
     margin-bottom: 30px;
     font-size: 18px;
     line-height: 1.67;
     color: #7B7B7B;
+    
+    @media all and (min-width:768px) {
+        margin-left: 39px;
+        font-size: 20px;
+    }
+    @media all and (min-width:1280px) {
+        margin-top: 60px;
+        margin-left: 0px;
+        font-size: 20px;
+        line-height: 1.5;
+    }
 }
 .button_go{
     width: 76px;
@@ -37,6 +83,17 @@
     border-radius: 22.5px;
     border: solid 3px #f26002;
     background-color: white;
+      
+    @media all and (min-width:768px) {
+        width: 91px;
+        margin-left: 39px;
+
+    }
+    @media all and (min-width:1280px) {
+        width: 160px;
+        margin-left: 0px;
+        margin-bottom: 60px;
+    }
 }
 
 // SECCION GRID//
@@ -48,17 +105,45 @@
     height: 624px;
     text-align: center;
     background-color: #EFF9FF;
+
+    @media all and (min-width:768px) {
+        height: auto;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 120px 120px 1fr;
+    }
+
+    @media all and (min-width:1280px) {
+        grid-template-rows: 150px 120px 1fr;
+    }
     
 }
 .reasons_title{
    padding-top: 30px;
    text-transform: capitalize;
    font-weight: bold;
+   font-size: 24px;
+
+   @media all and (min-width:768px) {
+    grid-column: 1/4;
+    font-size: 26px;
+   }
+   @media all and (min-width:1280px) {
+    padding-top: 60px;
+    font-size: 32px;
+   }
+
 }
 .h3{
     font-size: 20px;
     line-height: 1.67;
     font-weight: 900;
+
+    @media all and (min-width:768px) {
+        font-size: 24px;
+       }
+
+    @media all and (min-width:1280px) {
+       }
 }
 .h3::first-letter{
     text-transform: uppercase;
@@ -68,6 +153,10 @@
     font-weight: lighter;
     line-height: 30px;
     font-weight:lighter;
+
+    @media all and (min-width:768px) {
+        font-size: 20px;
+       }
 }
 p::first-letter {
     text-transform: uppercase;
@@ -75,6 +164,14 @@ p::first-letter {
 .reason_item{
     margin:0 auto;
     max-width: 180px;
+
+    @media all and (min-width:768px) {
+        max-width: 212px;
+    }
+
+    @media all and (min-width:1280px) {
+        max-width: 350px;
+    }
 }
 .reason_button{
     background-color: #f26002;
@@ -87,4 +184,15 @@ p::first-letter {
     font-size: 20px;
     color: white;
     font-weight: 500;
+
+    @media all and (min-width:768px) {
+        grid-column: 1/4;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        width: 210px;
+    }
+
+    @media all and (min-width:1280px) {
+        width: 210px;
+    }
 }

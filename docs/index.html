@@ -1,68 +1,151 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
-  </head>
 
-  <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
-      </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Adalab Web Starter Kit</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="icon" href="./assets/images/ico-menu.svg" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/main.css" />
+</head>
 
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
-        </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
-        </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
+<body>
+  <div class="page">
+    <header class="header" id="nav">
+        <div class="header_nav">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="https://adalab.es/" target="_blank" title="Main Adalab Page">
+                            <img src="./assets/images/ico-menu.svg" alt="navegation">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
 
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
+        <div>
+            <section class="header_section">
+                <h1 class="header_title">anonymous proxy</h1>
+                <h3 class="header_subtitle">in hac habitasse platea dictumst.</h3>
 
-          </li>
-        </ul>
-      </main>
+                <div class="header_down_arrow">
+                    <a href="./index.html#reasons" title="go to bottom">
+                        <img src="./assets/images/ico-scroll-down.svg" alt="scroll" title="scroll">
+                    </a>
+                </div>
+            </section>
+        </div>
+    </header>
+    <main class="main">
+        <section class="main_section1">
+            <article class="main_looking">
+                <p class="insomnia">insomnia tips</p>
+                <h2 class="h2_looking"> Looking through a window</h2>
+                <p class="p_seccion1">Donec accumsan, nulla ut volutpat portitir,quam odio tempus felis, at luctus ex diam
+                    nec
+                    lectus.Vivamus semper sodales rutrum.
+                </p>
+                <button class="button_go">go</button>
+            </article>
+        </section>
 
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
+        <section class="main_section2" id="reasons">
+            <h2 class="h2 reasons_title">3 reasons to purchase</h2>
+            <article class="reason_item">
+                <h3 class="h3">Ut sed metus</h3>
+                <p class="p">
+                    lorem, ipsum dolor sit amet consectetur.
+                </p>
+            </article>
+            <article class="reason_item">
+                <h3 class="h3">curabitur ac erat</h3>
+                <p class="p">
+                    Mauris mattis urba quis lorem molestie.
+                </p>
+            </article>
+            <article class="reason_item">
+                <h3 class="h3">morbi dictum</h3>
+                <p class="p">
+                    Aliquam in dolor et dolor tincidunt.
+                </p>
+            </article>
+            <button class="reason_button">More reasons</button>
 
-        </small>
-      </footer>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer_up_arrow">
+            <a href="./index.html#nav">
+                <img class="scroll-up" src="./assets/images/ico-arrow.svg" alt="Scroll Up">
+            </a>
+        </div>
+        <div class="container_nav">
+            <nav class="nav1">
+                <ul class="nav_footer">
+                    <li>
+                        <!-- <a class="footer_link" href="https://adalab.es/" target="_blank" title="Articles">articles</a> -->
 
-    </div>
-    <script src="./assets/js/main.js"></script>
-  </body>
+                        <a class="footer_link" href="https://adalab.es/" target="_blank" title="Articles">articles</a>
+
+                    </li>
+                    <li>
+                        <!-- <a class="footer_link" href="https://adalab.es/" target="_blank" title="Books">books</a> -->
+
+                        <a class="footer_link" href="https://adalab.es/" target="_blank" title="Books">books</a>
+
+                    </li>
+                    <li>
+                        <!-- <a class="footer_link" href="https://adalab.es/" target="_blank" title="Events">events</a> -->
+
+                        <a class="footer_link" href="https://adalab.es/" target="_blank" title="Events">events</a>
+
+                    </li>
+                    <li>
+                        <!-- <a class="footer_link" href="https://adalab.es/" target="_blank" title="Reasons">reasons</a> -->
+
+                        <a class="footer_link" href="https://adalab.es/" target="_blank" title="Reasons">reasons</a>
+                    </li>
+                    <li>
+                        <!-- <a class="footer_link" href="https://adalab.es/" target="_blank" title="Tips">tips</a> -->
+
+                        <a class="footer_link" href="https://adalab.es/" target="_blank" title="Tips">tips</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="nav2">
+                <ul class="nav_footer">
+                    <li>
+                        <a class="footer_link" href="https://adalab.es/" target="_blank" title="Articles">twitter</a>
+                    </li>
+                    <li>
+                        <a class="footer_link" href="https://adalab.es/" target="_blank" title="Articles">instagram</a>
+                    </li>
+                    <li>
+                        <a class="footer_link" href="https://adalab.es/" target="_blank"
+                            title="Articles">mastodon.social</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="last_container">
+                <small class="footer_small">
+                    &copy; 2021
+                    <div>
+                        <span>we <i class="heart fas fa-heart"></i>components</span>
+                    </div>
+                </small>
+            </div>
+        </div>
+    </footer>
+  </div>
+  <script src="./assets/js/main.js"></script>
+</body>
+
 </html>

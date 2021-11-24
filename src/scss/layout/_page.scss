@@ -1,8 +1,8 @@
 .main{
-    font-family: "Roboto Slab", serif;
+    font-family:$font-title;
 }
 .main_section1{
-    background-color: #fff;
+    background-color:$bg-section;
 }
 .main_looking{
     @media all and (min-width:768px) {
@@ -17,7 +17,7 @@
 .insomnia{
     margin-top: 30px;
     font-size: 14px;
-    color: #8ccbea;
+    color: $insopnia-color;
     line-height: 30px;
     text-transform: capitalize;
 
@@ -35,7 +35,7 @@
     line-height: 30px;
     margin-bottom: 15px;
     text-transform: capitalize;
-    font-family:"Roboto Slab", serif;
+    font-family:$font-title;
 
     @media all and (min-width:768px) {
         margin-left: 39px;
@@ -57,7 +57,7 @@
     margin-bottom: 30px;
     font-size: 18px;
     line-height: 1.67;
-    color: #7B7B7B;
+    color: $color-sect1;
     
     @media all and (min-width:768px) {
         margin-left: 39px;
@@ -76,12 +76,12 @@
     margin-bottom: 45px;
     font-size: 20px;
     font-weight: bold;
-    color: #f26002;
+    color:$color-button;
     text-transform: capitalize;
     text-align: center;
     border-radius: 22.5px;
-    border: solid 3px #f26002;
-    background-color: white;
+    border: solid 3px $color-button;
+    background-color: $bg-section;
       
     @media all and (min-width:768px) {
         width: 91px;
@@ -103,7 +103,7 @@
     grid-template-rows:105px repeat(4,1fr);
     height: 624px;
     text-align: center;
-    background-color: #EFF9FF;
+    background-color: $bg-sect2;
 
     @media all and (min-width:768px) {
         height: auto;
@@ -173,7 +173,7 @@ p::first-letter {
     }
 }
 .reason_button{
-    background-color: #f26002;
+    background-color: $color-button;
     margin: 0 auto;
     width: 184px;
     height: 45px;
@@ -181,7 +181,7 @@ p::first-letter {
     border: none;
     border-radius: 22.5px;
     font-size: 20px;
-    color: white;
+    color: $color-text;
     font-weight: 500;
 
     @media all and (min-width:768px) {

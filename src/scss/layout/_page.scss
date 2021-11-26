@@ -57,7 +57,7 @@
 }
 
 .p_seccion1{
-    margin-bottom: 30px;
+    // margin-bottom: 30px;
     font-size: 18px;
     line-height: 1.67;
     color: $color-sect1;
@@ -74,27 +74,27 @@
     }
 }
 .button_go{
-    width: 76px;
+    background-color: $color-button;
+    margin: 0 auto;
+    margin-top:20px;
+    width: 184px;
     height: 45px;
-    margin-bottom: 45px;
-    font-size: 20px;
-    font-weight: bold;
-    color:$color-button;
-    text-transform: capitalize;
-    text-align: center;
+    padding: 0 29.5px 0 30.5px;
+    border: none;
     border-radius: 22.5px;
-    border: solid 3px $color-button;
-    background-color: $bg-section;
-      
-    @media all and (min-width:768px) {
-        width: 91px;
-        margin-left: 39px;
+    font-size: 20px;
+    color: $color-text;
+    font-weight: 500;
 
-    }
-    @media all and (min-width:1280px) {
-        width: 160px;
-        margin-left: 0px;
+    @media all and (min-width:768px) {
+        grid-column: 1/4;
+        margin-top: 60px;
         margin-bottom: 60px;
+        width: 210px;
+    }
+
+    @media all and (min-width:1280px) {
+        width: 210px;
     }
 }
 

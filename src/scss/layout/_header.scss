@@ -74,9 +74,11 @@
   padding: 18px 12px 15.3px 13px;
   border-radius: 50%;
   background-color:$back-arrow;
+  display: none;
 
   @media all and (min-width: 768px) {
     margin-bottom: 45px;
+    display: block;
   }
 
   @media all and (min-width: 1280px) {
